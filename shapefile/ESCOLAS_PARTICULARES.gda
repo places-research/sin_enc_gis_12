@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>ESCOLAS_PARTICULARES</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>ESCOLAS_PARTICULARES.shp</path>
+            </datasource>
+            <layername>ESCOLAS_PARTICULARES</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>
+                    ID_EQ_ED
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>NOME</var>
+                <var>INSTANCIA</var>
+                <var>TIPO_LOGRA</var>
+                <var>LOGRADOURO</var>
+                <var>
+                    NUMERO
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>COMPLEMENT</var>
+                <var>BAIRRO</var>
+                <var>REGIONAL</var>
+                <var>DUP_IDS</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>ESCOLAS_PARTICULARES</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>ESCOLAS_PARTICULARES.gal</path>
+                        <id_variable>POLY_ID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>732</num_observations>
+                        <min_neighbors>3</min_neighbors>
+                        <max_neighbors>14</max_neighbors>
+                        <mean_neighbors>6.054644808743169</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                        <non_zero_perc>0.8271372689539849</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>NUMERO</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>setores_censitarios_renda</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>setores_censitarios_renda.shp</path>
+            </datasource>
+            <layername>setores_censitarios_renda</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>CD_GEOCODI</var>
+                <var>CD_GEOCODB</var>
+                <var>NM_BAIRRO</var>
+                <var>CD_GEOCODS</var>
+                <var>NM_SUBDIST</var>
+                <var>CD_GEOCODD</var>
+                <var>NM_DISTRIT</var>
+                <var>CD_GEOCODM</var>
+                <var>NM_MUNICIP</var>
+                <var>
+                    LAT
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>Setores</var>
+                <var>
+                    Cod_setor
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>Município</var>
+                <var>
+                    Código_Ba
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>Bairro</var>
+                <var>
+                    Situação
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Total_domi
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Renda_Méd
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Area
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Area_SC
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>setores_censitarios_renda</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>setores_censitarios_renda.gal</path>
+                        <id_variable>POLY_ID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>3936</num_observations>
+                        <min_neighbors>1</min_neighbors>
+                        <max_neighbors>27</max_neighbors>
+                        <mean_neighbors>6.256605691056911</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                        <non_zero_perc>0.1589584779231939</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>Renda_Méd</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
